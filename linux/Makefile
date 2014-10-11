@@ -117,7 +117,7 @@ LIBS		+= glut GLU GL
 INCDIRS		+= ../include
 
 # Additional locations for library files
-LIBDIRS		+= 
+LIBDIRS		+= /usr/X11R6/lib/
 
 # Additional locations for source files
 SRCDIRS		= ../src ../plugins
@@ -146,7 +146,7 @@ MAKEPARENTS	=
 INCDIRS		+= /usr/include
 
 # find sce libraries
-LIBDIRS		+= /usr/lib /usr/openwin/lib /usr/X11R6/lib
+LIBDIRS		+= 
 
 # Additional preprocessor definitions
 DEFINES		= OPENSTEER USEOpenGL

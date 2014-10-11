@@ -214,7 +214,7 @@ ASFLAGS		= -c  $(INCFLAGS)
 DVPASMFLAGS	= -g
 
 # Flags for the linker.  -nostartfiles
-LDFLAGS		= $(DEBUGFLAGS) $(LIBFLAGS)
+LDFLAGS		= $(DEBUGFLAGS) $(LIBFLAGS) 
 
 ##########################################################################
 ### Libraries
